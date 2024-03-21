@@ -17,7 +17,7 @@ import { useCallback, useEffect, useState } from "react";
 import { generateTokenAction } from "./actions";
 import { useRouter } from "next/navigation";
 
-const apiKey = process.env.NEXT_PUBLIC_GET_STREAM_API_KEY!;
+const apiKey = process.env.GET_STREAM_API_KEY!;
 
 export function DevFinderVideo({ room }: { room: Room }) {
   const session = useSession();
