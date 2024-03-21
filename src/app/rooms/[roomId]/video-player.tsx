@@ -18,7 +18,6 @@ import { generateTokenAction } from "./actions";
 import { useRouter } from "next/navigation";
 
 const apiKey = process.env.NEXT_PUBLIC_GET_STREAM_API_KEY!;
-console.log({ apiKey });
 
 export function DevFinderVideo({ room }: { room: Room }) {
   const session = useSession();
