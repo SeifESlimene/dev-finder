@@ -9,7 +9,7 @@ import { Toaster } from "@/components/ui/toaster";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Dev Finder",
+  title: "Developer Finder",
   description:
     "An application to help pair programming with random developers online",
 };
