@@ -12,6 +12,7 @@ export async function generateTokenAction() {
 
   const api_key = process.env.GET_STREAM_API_KEY!;
   const api_secret = process.env.GET_STREAM_SECRET_KEY!;
+  console.log({ api_key, api_secret });
   const serverClient = StreamChat.getInstance(api_key, api_secret);
   const token = serverClient.createToken(session.user.id);
   console.log("token", token);
